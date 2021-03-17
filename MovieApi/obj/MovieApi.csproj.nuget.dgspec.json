@@ -1,0 +1,449 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj",
+        "projectName": "MovieApi.Data",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj",
+        "projectName": "MovieApi.Models",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj",
+        "projectName": "MovieApi.Repository",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\MovieApi.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\MovieApi.Services.csproj",
+        "projectName": "MovieApi.Services",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\MovieApi.Services.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Models\\MovieApi.Models.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj",
+        "projectName": "MovieApi.Utils",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\MovieApi.Utils.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
+        "projectName": "MovieApi",
+        "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi\\MovieApi.csproj",
+        "packagesPath": "C:\\Users\\lau33\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lau33\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Data\\MovieApi.Data.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Repository\\MovieApi.Repository.csproj"
+              },
+              "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\MovieApi.Services.csproj": {
+                "projectPath": "C:\\Users\\lau33\\source\\repos\\MovieApi\\MovieApi.Services\\MovieApi.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
